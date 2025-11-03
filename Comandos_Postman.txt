@@ -1,0 +1,32 @@
+http://127.0.0.1:5000/livros
+
+{
+  "titulo": "Dom Casmurro",
+  "autor": "Machado de Assis",
+  "genero": "Romance",
+  "ano_publicacao": 1899
+}
+{
+  "titulo": "O Cortiço",
+  "autor": "Aluísio Azevedo",
+  "genero": "Naturalismo",
+  "ano_publicacao": 1890
+}
+{
+  "titulo": "Vidas Secas",
+  "autor": "Graciliano Ramos",
+  "genero": "Ficção",
+  "ano_publicacao": 1938
+}
+
+http://127.0.0.1:5000/livros
+http://127.0.0.1:5000/livros/1
+http://127.0.0.1:5000/livros/titulo/Dom Casmurro
+
+http://127.0.0.1:5000/livros/2
+
+{
+  "genero": "Romance Naturalista"
+}
+
+http://127.0.0.1:5000/livros/1
